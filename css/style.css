@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.col-lg-6 ul{
+    list-style: none;
+    padding: 0;
+}
+
+.top-hero-section .container{
+    padding-top: 50px;
+}
+
+#about-section {
+    padding-bottom: 80px ;
+}
+
+#about-section .container {
+    padding-top: 80px;
+}
+
+.top-hero-section{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255,255,255,0.8)), url(../img/hero-bg.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+#count{
+    background-color: #f8fbfe;
+    padding:30px 0;
+    width: 100%;
+}
+#count .count-box{
+    width: 100%;
+    text-align: center;
+}
+#count .count-box span{
+    font-size: 48px;
+    font-weight: 700;
+    color: #124265;
+    margin: auto;
+}
+#count .count-box p{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 0;
+    color: #1e6ca6;
+}
+#about-section .col-lg-6 img{
+    max-width: 100%;
+    height: auto;
+}
+#about-section .col-lg-6 h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #124265;
+}
+#about-section i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2487ce;
+    font-size: 20px;
+}
+#about-section  li{
+    padding-left: 28px;
+    position: relative;
+}
+#client{
+    background-color:  #f8fbfe;
+    padding: 15px;
+    width: 100%;
+}
+#client img{
+    width: 40%;
+    padding: 15px 0;
+    display: inline-block;
+}
