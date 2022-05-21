@@ -86,8 +86,11 @@
     filter: none;
     transform: scale(1.15);
 }
+#testimonial{
+    width: 100%;
+}
 .testimony-person img{
-    width: 100px;
+    width: 90px;
     height: 100px;
     border-radius: 50%;
 }
@@ -98,6 +101,7 @@
 .testimonial-box{
     min-height: 400px;
     text-align: center;
+    box-sizing: content-box;
 }
 .testimony .fa-solid{
     font-size: 26px;
@@ -108,8 +112,10 @@
     border-radius: 6px;
     margin-bottom: 35px;
     padding: 20px;
+    position: relative;
     margin: 0 15px 15px;
 }
+
 #service{
     background: #f8fbfe;
     padding: 80px 0;
